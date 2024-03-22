@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Factory</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <select id="shape-select">
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+        </select>
+        <select id="color-select">
+            <option value="#09f">Blue</option>
+            <option value="#9f0">Green</option>
+            <option value="#f90">Orange</option>
+            <option value="#f09">Pink</option>
+            <option value="#90f">Purple</option>
+        </select>
+        <button onclick="createShape()">Create</button>
+    </div>
+    <div id="grid"></div>
+</body>
+</html>

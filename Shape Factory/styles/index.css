@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 20px;
+}
+
+/* Main Body */
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.circle, .square{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.square{
+    border-radius: 0;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+/* Options/Select Button */
+
+#shape-select, #color-select, button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+button{
+    background-color: #0049B7;
+    color: #fff;
+}
